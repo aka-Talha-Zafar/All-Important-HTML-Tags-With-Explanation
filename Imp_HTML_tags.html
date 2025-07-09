@@ -118,5 +118,71 @@
         <br>
         <b>Example:</b> &lt; a href="https://example.com"  &gt; Visit Website &lt; /a &gt;
     </p>
+    <h2>Image Tag:</h2>
+    <p>
+        The &lt; img &gt; tag is used to display images on a web page.It is a self-closing tag and requires the <b>src (image path)</b> and <b>alt (alternative text)</b> attributes.
+        <br>
+        <b>Example:</b> &lt; img  &nbsp;&nbsp;&nbsp;src="address of image" &nbsp;&nbsp;alt="alternative text" &gt;  
+        <img height="100" src="Images/image1.png" alt="Surprise mother fucker">
+    </p>
+    <h2>Table Tag:</h2>
+    <p>
+        The <b>&lt; table &gt;</b> tag is used to create a table structure in HTML and acts as a container for all table-related elements like rows and cells.It organizes data into a grid of rows and columns.
+        <br>
+        <b>Syntax:</b> &lt; table &gt; ... &lt; /table &gt;
+    </p>
+    <h2>Table_Row Tag:</h2>
+    <p>
+        The <b>&lt; tr &gt;</b> tag defines a row in a table and is used to group a set of &lt; th &gt; or &lt; td &gt; cells horizontally.Every new <b>&lt; tr &gt;</b> adds a new horizontal row to the table.
+        <br>
+        <b>Syntax:</b> &lt; tr &gt; Table Row &lt; tr &gt;
+    </p>
+    <h2>Table_Heading Tag:</h2>
+    <p>
+        The <b>&lt; th &gt;</b> tag is used to define header cells in a table, which are usually placed in the first row.By default, the text in &lt; th &gt; is bold and centered, making it visually distinct.
+        <br>
+        <b>Syntax:</b> &lt; th &gt; Table Heading &lt; th &gt;
+    </p>
+    <h2>Table_Data Tag:</h2>
+    <p>
+        The <b>&lt; td &gt;</b> tag is used to define standard data cells in a table that contain the actual data.Each <b>&lt; td &gt;</b> goes inside a &lt; tr &gt; and represents a single cell in that row.
+    </p>
+    <h2>Basic Code Structure of a Table:</h2>
+    <pre>
+&lt;table&gt; 
+  &lt;tr&gt;
+    &lt;th&gt; Pet Name &lt;/th&gt;
+    &lt;th&gt; Superpower &lt;/th&gt;
+    &lt;th&gt; Favorite Snack &lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; Bob &lt;/td&gt;
+    &lt;td&gt; Laser Eyes &lt;/td&gt;
+    &lt;td&gt; Tuna Pizza &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; Tom &lt;/td&gt;
+    &lt;td&gt; Mind Control &lt;/td&gt;
+    &lt;td&gt; Chicken Nuggets &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt; Simen &lt;/td&gt;
+    &lt;td&gt; Invisibility &lt;/td &gt;
+    &lt;td&gt; Popcorn &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+    <h2>Colspan Attribute:</h2>
+    <p>
+        The <b>colspan is not an html tag, it's an attribute</b> used in a &lt; th &gt; or &lt; td &gt; to make a single cell stretch across multiple columns.This is useful when you want one cell to occupy the space of two or more columns.
+        <br>
+        <b>Syntax:</b> &lt; td colspan="2" &gt; Merged Columns &lt; /td &gt;
+    </p>
+    <h2>Rowspan Attribute:</h2>
+    <p>
+        Similarly to colspan <b>rowspan is also an attribute</b> used in a &lt; th &gt; or &lt; td &gt; to make a single cell extend vertically (along X-axis) across multiple rows.
+        <br>
+        <b>Syntax:</b> &lt; td rowspan="2" &gt; Merged Rows &lt; /td &gt;
+    </p>
 </body>
 </html>
