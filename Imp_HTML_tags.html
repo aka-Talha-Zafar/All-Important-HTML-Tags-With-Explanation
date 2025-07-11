@@ -184,5 +184,212 @@
         <br>
         <b>Syntax:</b> &lt; td rowspan="2" &gt; Merged Rows &lt; /td &gt;
     </p>
+    <h2>Ordered_List Tag:</h2>
+    <p>
+        The <b>&lt; ol &gt;</b> tag is used to create a numbered list, where each item appears in a specific sequence.Each item inside the list is wrapped in an <b>&lt; ol &gt;</b> tag.
+        <br>
+        <b>Syntax:</b> 
+        <br>
+        &lt; ol &gt;
+        <br>
+        &lt; li &gt; ... &lt; /li &gt;
+        <br>
+        &lt; li &gt; ... &lt; /li &gt;
+        <br>
+        &lt; /ol &gt;
+    </p>
+    <h2>Unordered_List Tag:</h2>
+    <p>
+        The <b>&lt; ul &gt;</b> tag creates a bulleted list where the order of items is not important.Like &lt; ol &gt;, each item goes inside an <b>&lt; ol &gt;</b> tag.
+        <br>
+        <b>Syntax:</b>
+         <br>
+        &lt; ul &gt;
+        <br>
+        &lt; li &gt; ... &lt; /li &gt;
+        <br>
+        &lt; li &gt; ... &lt; /li &gt;
+        <br>
+        &lt; /ul &gt;
+    </p>
+    <h2>Defination_List Tag:</h2>
+    <p>
+        The <b>&lt; ul &gt;</b> tag is used for definitions, it pair terms with their descriptions.Inside it, <b>&lt; dt &gt;</b> defines the term, and <b>&lt; dd &gt;</b> gives the description.
+        <br>
+        <b>Syntax:</b> 
+        <br>
+        &lt; dl &gt;
+        <br>
+        &lt; dt &gt; HTML &lt; /dt &gt;
+        <br>
+        &lt; dd &gt; HyperText Markup Language &lt; /dd &gt;
+        <br>
+        &lt; /dl &gt;
+    </p>
+    <h2>Form Tag:</h2>
+    <p>
+        The <b>&lt; form &gt;</b> tag is used to collect user input and send it to a server for processing (like login, signup, or search).It <b>wraps around input fields, buttons, and other form elements</b>, and <b>uses action and method attributes</b> to define where and how data is submitted.
+        <br>
+        <b>Example:</b> 
+    </p>
+    <pre>
+    &lt;form action="/submit" method="post"&gt;
+        &lt;label for="name"&gt;Enter your name:&lt;/label&gt;
+        &lt;input type="text" id="name" name="name"&gt;
+        &lt;label for="email"&gt;Email:&lt;/label&gt;
+        &lt;input type="email" id="email" name="email"&gt;
+        &lt;button type="submit"&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;
+       </pre>
+    <h2>Input Tag:</h2>
+    <p>
+        The <b>&lt; Input &gt;</b> tag is used to create interactive <b>form controls like text fields, checkboxes, radio buttons, etc</b>.It is a self-closing tag and requires the type attribute to define the kind of input.
+        <br>
+        <b>Syntax:</b> &lt;input type="text" id="username" name="username"&gt;
+    </p>
+    <h2>Label Tag:</h2>
+    <p>
+        The &lt; Label &gt; tag is used to <b>define a label for an input field, improving form accessibility and usability.</b>It can be linked to an input using the for attribute, which matches the input's id.
+        <br>
+        <b>Syntax:</b> &lt;label for="username"&gt;Username:&lt;/label&gt;
+    </p>
+    <h2>Div Tag:</h2>
+    <p>
+        The <b>&lt; div &gt;</b> tag is a block-level container used to group/wrap HTML elements for styling or layout purposes.It doesn't add any visual change by default but is widely used with CSS or JavaScript to structure web pages.
+        <br>
+        <b>Example:</b>
+        <br>
+        &lt;div class="container"&gt;
+        <br>
+        &lt;p&gt;Hello World!&lt;/p&gt;
+        <br>
+        &lt;/div&gt;
+    </p>
+    <h2>Textarea Tag:</h2>
+    <p>
+        The <b>&lt; textarea &gt;</b> tag is used to create a multi-line text input field where users can write longer content like comments or messages.It supports <b>attributes like rows, cols, placeholder, and more,</b> and requires both opening and closing tags.
+        <br>
+        <b>Syntax:</b> &lt;textarea rows="4" cols="30" placeholder="Enter your message here"&gt;&lt;/textarea&gt;
+    </p>
+    <h2>Select Tag:</h2>
+    <P>
+        The <b>&lt; select &gt;</b> tag is used to create a dropdown menu in a form, allowing users to choose one (or multiple) options.<b>It works with nested &lt; option &gt; tags</b> and supports attributes like name, id, and multiple.
+        <br>
+        <b>Example:</b>
+        <br>
+        &lt;select name="fruits"&gt;
+        <br>
+        &lt;option value="apple"&gt;Apple&lt;/option&gt;
+        <br>
+        &lt;option value="banana"&gt;Banana&lt;/option&gt;
+        <br>
+        &lt;/select&gt;
+    </P>
+    <h2>Span Tag:</h2>
+    <p>
+        The <b>&lt; span &gt;</b> tag is an <b>inline container used to group/wrap a portion of text or elements for styling or scripting purposes.</b> It doesn't affect layout by itself but is commonly used with CSS or JavaScript.
+        <br>
+        <b>Example:</b> 
+        &lt;p&gt;This is a &lt;span style="color: red;"&gt;highlighted&lt;/span&gt; word.&lt;/p&gt;
+    </p>
+    <h2>Block Elements:</h2>
+    <p>
+        Block elements <b>occupy the full width of their container</b> and always <b>start from a new line.</b> They are mainly used for structuring the page layout and grouping content.
+        <br>
+       <b>Example:</b> &lt;div&gt;, &lt;p&gt;, &lt;h1&gt;, &lt;ul&gt;, &lt;table&gt;
+    </p>
+    <h2>Inline Elements:</h2>
+    <p>
+        Inline elements <b>only take up as much width as necessary</b> and do <b>not break to a new line.</b> They're used to style or manipulate small parts of text or content inside block elements.
+        <br>
+        <b>Example:</b> &lt;span&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;img&gt;, &lt;label&gt;
+    </p>
+    <h2>ID Attribute:</h2>
+    <p>
+        The <b>ID attribute uniquely identifies a single HTML element</b> on a page. It must be unique and is often used for styling or JavaScript targeting.
+        <br>
+        <b>Example:</b> 
+        <br>
+        &lt;div id="header"&gt; (Single class )
+        <br>
+        &lt;p class="note important warning"&gt;This is a message.&lt;/p&gt; (Multiple classes to single element)
+    </p>
+    <h2>Class Attribute:</h2>
+    <p>
+        The <b>Class attribute assigns one or more labels to an element,</b> allowing multiple elements to share the same styling or behavior.<b>Also a single element can also have multiple classes</b> allowing single element having multilpe stylings.
+        <br>
+        <b>Example:</b> 
+        <br>
+        &lt;p class="highlight"&gt;First paragraph.&lt;/p&gt;
+        <br>
+        &lt;div class="highlight"&gt;Some highlighted div content.&lt;/div&gt;
+        <br>
+        &lt;span class="highlight"&gt;Highlighted text.&lt;/span&gt;
+    </p>
+    <h2>Audio Tag:</h2>
+    <P>
+        The <b>&lt; audio &gt;</b>> tag is used to embed sound content in a webpage, such as music or sound effects. It supports multiple file formats and provides controls like play, pause, and volume.
+        <br>
+        <b>Example 1:</b> 
+        <br>
+        &lt;audio controls&gt;
+        <br>
+        &lt;source src="song.mp3" type="audio/mpeg"&gt;
+        <br>
+        Your browser does not support the audio tag.
+        <br>
+        &lt;/audio&gt;
+        <br>
+        <b>Note: </b>(This formate is used to enter multiple audio formates and the most compatible one with browser is selected automatically)
+        <br>
+        <b>Example 2:</b>
+        <br>
+        &lt;audio src="test.mp3" controls&gt;&lt;/audio&gt;
+        <br>
+        <b>Note: </b>(This formate is used when you only have one audio file and don't care about older browser support or format fallback.)
+    </P>  
+    <h2>Video Tag:</h2>
+    <p>
+        The <b>&lt; video &gt;</b> tag is used to embed video content in a webpage. It supports controls for play, pause, fullscreen, etc., and allows multiple source formats for better compatibility.
+        <br>
+        <b>Example 1:</b> 
+        <br>
+        &lt;video width="320" height="240" controls&gt;
+        <br>
+        &lt;source src="video.mp4" type="video/mp4"&gt;
+        <br>
+        Your browser does not support the video tag.
+        <br>
+        &lt;/video&gt;
+        <br>
+        <b>Note: </b>(This formate is used when you only have one video file and don't care about older browser support or format fallback.)
+        <br>
+        <b>Example 2:</b>
+        <br>
+        &lt;video src="video.mp4" controls&gt;&lt;/video&gt;
+    </p>
+    <h2>SVG Tag:</h2>
+    <p>
+        The <b>&lt; svg &gt;</b> tag defines a container for Scalable Vector Graphics (SVG), which are resolution-independent images created with XML syntax—ideal for logos, icons, charts, and illustrations.
+        <br>
+        <b>Fun Fact:</b> &lt; img &gt; tag  is like saying: “Hey browser, just show this file.”But <b>&lt; svg &gt; is like saying: “Hey browser, draw this yourself.”</b>
+        <br>
+        <b>Example:</b>
+        <br>
+        &lt;svg width="100" height="100"&gt;
+        <br>
+        &lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" /&gt;
+        <br>
+        &lt;/svg&gt;
+    </p>
+    <h2>Iframe Tag:</h2>  
+    <p>
+        The <b>&lt; iframe &gt;</b> (inline frame) tag is used to embed another HTML document (like a website, video, or map) inside the current HTML page.
+        <br>
+        <b>Example:</b> 
+        <br>
+        &lt;iframe src="https://www.example.com" width="600" height="400"&gt;
+        &lt;/iframe&gt;
+    </p>
 </body>
 </html>
