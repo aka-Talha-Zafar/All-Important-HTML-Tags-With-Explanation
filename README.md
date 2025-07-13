@@ -4,7 +4,7 @@
 
 A comprehensive reference guide to all essential HTML tags with detailed explanations and practical examples.
 
-## 📌 Table of Contents
+## Table of Contents
 - [Project Description](#project-description)
 - [Features](#features)
 - [Usage](#usage)
@@ -15,7 +15,7 @@ A comprehensive reference guide to all essential HTML tags with detailed explana
 - [Author](#author)
 - [Support](#Support)
 
-## 🚀 Project Description
+## Project Description
 This repository serves as a complete HTML tags cheatsheet for web developers at all levels. It provides:
 - Clear explanations of HTML tags and their purposes
 - Proper syntax examples for each tag
@@ -25,37 +25,37 @@ This repository serves as a complete HTML tags cheatsheet for web developers at 
 
 Perfect for beginners learning HTML or experienced developers needing a quick reference.
 
-## ✨ Features
+## Features
 - **Comprehensive Coverage**: 50+ essential HTML tags explained
 - **Practical Examples**: Real-world code snippets for each tag
 - **Visual Organization**: Clean, categorized structure
 - **Beginner-Friendly**: Simple explanations with no assumed knowledge
 - **Quick Reference**: Easy to navigate and search
 
-## 🛠️ Usage
-1. **Online Reference**: View the [HTML file directly on GitHub](https://github.com/Talha-Zafar/All-Important-HTML-Tags-With-Explanation/blob/main/Imp_HTML_tags.html) to use as a reference
+## Usage
+1. **Online Reference**: View the [HTML file directly on GitHub](https://github.com/aka-Talha-Zafar/All-Important-HTML-Tags-With-Explanation/blob/main/Imp_HTML_tags.html) to use as a reference
 2. **Local Copy**: Clone the repo for offline access:
    ```bash
    git clone https://github.com/aka-Talha-Zafar/All-Important-HTML-Tags-With-Explanation.git
 3. **Contribution Template:** Use as a base for your own HTML reference projects
 
-## 🧾 HTML Tags Covered
+## HTML Tags Covered
 
 The project covers the following types of tags:
 
-- 🧱 **Structural**: `<html>`, `<head>`, `<body>`, `<!DOCTYPE>`
-- 📌 **Metadata**: `<meta>`, `<title>`, `<link>`
-- 📝 **Text**: `<h1>`–`<h6>`, `<p>`, `<span>`, `<strong>`
-- 🔗 **Hyperlinks & Media**: `<a>`, `<img>`, `<video>`, `<audio>`, `<iframe>`, `<svg>`
-- 📑 **Lists**: `<ul>`, `<ol>`, `<li>`, `<dl>`, `<dt>`, `<dd>`
-- 🧾 **Tables**: `<table>`, `<tr>`, `<td>`, `<th>`, including `rowspan`, `colspan`
-- 🔲 **Forms**: `<form>`, `<input>`, `<label>`, `<textarea>`, `<select>`, `<option>`
-- 🧩 **Semantics**: `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`
-- ⚙️ **Container Elements**: `<div>`, `<span>`
-- 🔍 **Attributes**: `id`, `class`, `type`, `src`, `alt`, `href`, etc.
-- ⚖️ **Conceptual Distinction**: Block vs. Inline elements
+- **Structural**: `<html>`, `<head>`, `<body>`, `<!DOCTYPE>`
+- **Metadata**: `<meta>`, `<title>`, `<link>`
+- **Text**: `<h1>`–`<h6>`, `<p>`, `<span>`, `<strong>`
+- **Hyperlinks & Media**: `<a>`, `<img>`, `<video>`, `<audio>`, `<iframe>`, `<svg>`
+- **Lists**: `<ul>`, `<ol>`, `<li>`, `<dl>`, `<dt>`, `<dd>`
+- **Tables**: `<table>`, `<tr>`, `<td>`, `<th>`, including `rowspan`, `colspan`
+- **Forms**: `<form>`, `<input>`, `<label>`, `<textarea>`, `<select>`, `<option>`
+- **Semantics**: `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`
+- **Container Elements**: `<div>`, `<span>`
+- **Attributes**: `id`, `class`, `type`, `src`, `alt`, `href`, etc.
+- **Conceptual Distinction**: Block vs. Inline elements
 
-## 📸 Screenshot
+## Screenshot
 
 ![HTML Cheatsheet Preview](Images/image1.png)
 
@@ -63,15 +63,15 @@ The project covers the following types of tags:
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 - **HTML5** – Core structure and content
 - **CSS3** – Embedded internal styles for readability and layout
-- ❌ No JavaScript or frameworks used
+- No JavaScript or frameworks used
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 All-Important-HTML-Tags-With-Explanation/
 <br>
@@ -81,7 +81,7 @@ All-Important-HTML-Tags-With-Explanation/
 <br>
 └── Images/ # Folder for local screenshots or image examples
 
-## 🤝 Contributing
+## Contributing
 
 This project is primarily for learning and reference purposes.  
 If you'd like to add more examples or extend it with CSS/JS interactivity:
@@ -96,17 +96,17 @@ If you'd like to add more examples or extend it with CSS/JS interactivity:
    git commit -m "Add new tag explanation"
 4. **Push** your branch and open a **Pull Request**
 
-## 👨‍💻 Author
+## Author
 
 **Talha Zafar**<br>
-[Github Account](aka-Talha-Zafar)
+[Github Account](https://github.com/aka-Talha-Zafar)
 
-## 🙌 Support
+## Support
 
 If you found this project helpful:
 
-- ⭐ Star the repository
+- Star the repository
 
-- 📤 Share it with your developer community
+- Share it with your developer community
 
-- 🧠 Use it as a base for your own HTML learning materials
+- Use it as a base for your own HTML learning materials
