@@ -3,6 +3,9 @@
 ![HTML5 Logo](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 A comprehensive reference guide to all essential HTML tags with detailed explanations and practical examples.
+<br>
+<br>
+**Note:** I have now included the practice set as well, which I initially wasn’t planning to add. By following this practice set, you will get hands-on experience with almost all essential HTML tags.
 
 ## Table of Contents
 - [Project Description](#project-description)
